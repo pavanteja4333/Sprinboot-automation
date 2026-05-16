@@ -3,4 +3,4 @@ description: A custom GitHub Action to build a Spring Boot application and creat
 
 runs:
   using: "docker"
-  image: "../../Dockerfile"
+  image: "../../../Dockerfile"
