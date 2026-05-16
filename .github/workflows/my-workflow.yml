@@ -1,0 +1,14 @@
+name: my java build workflow
+
+on:
+    workflow_dispatch:
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v6
+            - name: custom build step
+              uses: ./.github/actions/spring-docker

@@ -1,0 +1,48 @@
+# Maven
+target/
+!target/.gitkeep
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Spring Boot
+spring-boot-devtools.properties
+
+# Build files
+*.class
+*.jar
+*.war
+*.ear
+
+# Temporary files
+*~
+*.tmp
+*.swp
+
+# Generated sources
+/generated-sources/
+
+# Test reports
+surefire-reports/
+failsafe-reports/
+
+# Environment
+.env

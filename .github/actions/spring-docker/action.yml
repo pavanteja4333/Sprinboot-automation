@@ -1,0 +1,6 @@
+name: Spring Docker Build
+description: A custom GitHub Action to build a Spring Boot application and create a Docker image.
+
+runs:
+  using: "docker"
+  image: "../../Dockerfile"
