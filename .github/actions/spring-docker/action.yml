@@ -4,3 +4,7 @@ description: A custom GitHub Action to build a Spring Boot application and creat
 runs:
   using: "docker"
   image: "../../../Dockerfile"
+  entrypoint:  "sh"
+  args:
+    - "-c"
+    - "echo 'Docker image built successfully'"
